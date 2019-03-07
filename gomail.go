@@ -2,8 +2,8 @@ import (
 
 	"fmt"
 	"log"
-    "net"
-    "net/mail"
+	"net"
+	"net/mail"
 	"net/smtp"
 	"crypto/tls"
 
@@ -11,8 +11,8 @@ import (
 
 func gomail(){
 
-    from := mail.Address{"", "bitcoin_sql@yahoo.co.jp"}
-    to   := mail.Address{"", "a05053087196@icloud.com"}
+    from := mail.Address{"", "from@yahoo.co.jp"}
+    to   := mail.Address{"", "to@icloud.com"}
     subj := "件名を日本語化"
     body := "日本語でのメール送信テスト\n 送信できていればOK\n ２"
 
